@@ -5,7 +5,7 @@ const startScreen = document.getElementById('start-screen');
 
 // Mensaje completo
 const mensaje = `Creo que tendríamos que tener esta conversación honesta en persona.
-Pero que nos veamos es tan raro amor…
+Pero que nos veamos es un poco raro amor…
 No es un reclamo, y son cosas que ya perdoné honestamente en su momento.
 Solo quiero explicarte por qué estoy haciendo esto.
 Y la pregunta es la siguiente…
@@ -15,14 +15,14 @@ Y la pregunta es la siguiente…
 Si me preguntas a mí… ¿si verdaderamente me siento amado?
 A veces siento que no fui el elegido, y aunque me cueste decirlo, es una sensación que ha estado conmigo.
 Lo digo porque hubo momentos en los que yo sentí frialdad cuando intentaba demostrarte mi amor.
-Lo digo porque las veces que te fuiste, yo sentí tristeza.
+Lo digo por las veces que te fuiste, y yo sentí tristeza.
 Quiero ser muy honesto.
 La vez que te fuiste a Puno a buscar tu nuevo camino…
 Ciertamente sentí que se abrió una herida en mí.
 Sentí que, sin importar cómo se llevará una relación, llegaría un punto en el que todo terminaría así.
 Y sí, eso me hizo sentir la necesidad de cambiar mi forma de ser para no volver a pasar por ese dolor… por miedo.
 Pero sabes a lo largo de todo ese tiempo también aprendí algo importante…
-que las cosas no tienen porqué ser así (tú… yo no tuvimos la culpa de nada, simplemente las cosas se dieron de esa manera y ya / Todos actúan y actuarán según su punto de vista, según lo que vivieron en ese momento)...
+que las cosas no tienen porqué ser así (tú… yo no tuvimos la culpa de nada, simplemente las cosas se dieron de esa manera y ya / Todos actúan y actuarán según su punto de vista y según lo que vivieron en ese momento)...
 Solo siéntete orgulloso/@ del amor que ofreciste y de la persona que fuiste y ya. No tienes porque cambiar. No tienes por qué abandonarte o detener tu vida por miedo. Es a la conclusión a la que al final llegué.
 Así que sí… aprendí a entender y a superar esa herida.
 También quiero explicarte otras cosas.
@@ -32,8 +32,8 @@ Momentos en los que yo sentí que lo que necesitaba expresar no era tan importan
 Hubo algo que me dolió especialmente.
 Cuando vi que grabaste con alguien más y lo publicaste, yo sentí tristeza, porque conmigo nunca nació esa iniciativa, nunca hablamos de hacer eso juntos.
 Yo sentí que ese tipo de gestos simplemente no nacían hacia mí.
-También hubo veces en las que yo sentí que no había tiempo para salir juntos, que nuestros momentos eran solo para cosas específicas.
-Y cuando veía que con tus amigas si tenias planes... que yo hubiera querido vivir contigo también.
+También hubo veces en las que yo sentí que no había tiempo para pasarla juntos, que nuestros momentos eran solo para cosas específicas.
+Y luego veía que con tus amigas si tenias planes... que yo hubiera querido vivir contigo también.
 A veces, cuando te escucho hablar con tanta nostalgia de tu pasado, yo siento que tu presente parece menos significativo.
 Y todo lo que menciono son cosas que ya he perdonado de corazón.
 Pero aun así necesito preguntarte con sinceridad:
@@ -165,7 +165,7 @@ async function showMessage() {
   const endMessage = document.createElement('div');
   endMessage.className = 'end-message';
   endMessage.innerHTML = `
-    <div class="final-text">Gracias por leer... la respuesta que tomes la respetare... te amoo ❤️</div>
+    <div class="final-text">Gracias por leer... la respuesta que tomes la respetare, solo se honesta por favor... te amoo ❤️</div>
     <button id="restart-btn">Volver a leer</button>
   `;
   messageContainer.appendChild(endMessage);
@@ -263,4 +263,5 @@ document.addEventListener('DOMContentLoaded', () => {
       controlsInfo.classList.remove('show');
     }, 5000);
   }, 500);
+
 });
