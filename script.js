@@ -32,7 +32,7 @@ Momentos en los que yo sentí que lo que necesitaba expresar no era tan importan
 Hubo algo que me dolió especialmente.
 Cuando vi que grabaste con alguien más y lo publicaste, yo sentí tristeza, porque conmigo nunca nació esa iniciativa, nunca hablamos de hacer eso juntos.
 Yo sentí que ese tipo de gestos simplemente no nacían hacia mí.
-También hubo veces en las que yo sentí que no había tiempo para pasarla juntos, que nuestros momentos eran solo para cosas específicas.
+También hubo veces en las que yo sentí que no había tiempo para nosotros, que nuestros momentos eran solo para cosas específicas.
 Y luego veía que con tus amigas si tenias planes... que yo hubiera querido vivir contigo también.
 A veces, cuando te escucho hablar con tanta nostalgia de tu pasado, yo siento que tu presente parece menos significativo.
 Y todo lo que menciono son cosas que ya he perdonado de corazón.
@@ -265,3 +265,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }, 500);
 
 });
+
